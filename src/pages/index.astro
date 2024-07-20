@@ -7,7 +7,7 @@ import Link from '@components/Link.astro'
 import { getCollection } from 'astro:content'
 import type { CollectionEntry } from 'astro:content'
 
-const allBlogPosts = await getCollection('blog')
+const allBlogPosts = await getCollection('posts')
 
 const blog = allBlogPosts
   .filter((post) => !post.data.draft)
@@ -27,28 +27,48 @@ const projects: CollectionEntry<'projects'>[] = (
 <Layout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <Container>
     <aside data-pagefind-ignore>
-      <div>
-        <div>
-          <span class="animate">
-            <img
-              class="mx-auto h-32 w-32 rounded-full"
-              src="/avatar.jpg"
-              alt="avatar"
-            />
-          </span>
-        </div>
+      <div class="animate">
+        <span>
+          <img
+            class="mx-auto h-28 w-28 rounded-full"
+            src="/avatar.jpg"
+            alt="avatar"
+          />
+        </span>
 
         <h1
-          class="animate mt-4 text-center text-2xl font-bold text-black dark:text-white"
+          class="mt-4 text-center text-2xl font-bold text-black dark:text-white"
         >
           Andres Martin Angulo
         </h1>
       </div>
 
       <div class="mt-4 space-y-16">
-        <section class="text-center">
+        <section class="text-center font-extralight italic animate">
           <p>Discovering what it means to be alive.</p>
           <p>Trying to make the world a better place.</p>
+        </section>
+
+        <section class="space-y-4 animate">
+          <p>
+            Hello, I’m Andres! Welcome to my website! This is my little space in
+            the internet where I share the insight of my researches and my
+            vision of the world.
+          </p>
+
+          <p>
+            I’m a very curious person who likes to research from time to time. I
+            experiment with different topics such as nutrition, personal
+            finance, sports, productivity, etc. I enjoy keeping my mind busy
+            with something to do. You can see the projects that I’m currently
+            working on <Link href="/now">here</Link>.
+          </p>
+
+          <p>Wanna know more about me? Read my story.</p>
+
+          <p>
+            Wanna know which tools or hardware do I use? Read the tools page.
+          </p>
         </section>
 
         <section class="animate space-y-6">
@@ -56,7 +76,7 @@ const projects: CollectionEntry<'projects'>[] = (
             <h2 class="font-semibold text-black dark:text-white">
               📌 Pinned posts
             </h2>
-            <Link href="/blog"> See all posts </Link>
+            <Link href="/archive"> See all posts </Link>
           </div>
           <ul class="not-prose flex flex-col gap-4">
             {
@@ -74,7 +94,7 @@ const projects: CollectionEntry<'projects'>[] = (
             <h2 class="font-semibold text-black dark:text-white">
               Latest posts
             </h2>
-            <Link href="/blog"> See all posts </Link>
+            <Link href="/archive"> See all posts </Link>
           </div>
           <ul class="not-prose flex flex-col gap-4">
             {

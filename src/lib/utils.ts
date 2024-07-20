@@ -19,3 +19,7 @@ export function readingTime(html: string) {
   const readingTimeMinutes = (wordCount / 200 + 1).toFixed();
   return `${readingTimeMinutes} min read`;
 }
+
+export function cleanSlugDate(slug: string) {
+  return slug.slice(11);
+}

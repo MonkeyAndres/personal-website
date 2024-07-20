@@ -1,13 +1,20 @@
 ---
+import { cleanSlugDate } from "@lib/utils";
 import type { CollectionEntry } from "astro:content";
 
 type Props = {
-  entry: CollectionEntry<"blog"> | CollectionEntry<"projects">;
+  entry: CollectionEntry<"posts"> | CollectionEntry<"projects">;
 };
 
 const { entry } = Astro.props as {
-  entry: CollectionEntry<"blog"> | CollectionEntry<"projects">;
+  entry: CollectionEntry<"posts"> | CollectionEntry<"projects">;
 };
+
+// HACK: Remove the date prefix from the blog slug
+if (entry.collection === 'posts') {
+  entry.slug = cleanSlugDate(entry.slug)
+}
+
 ---
 
 <a
