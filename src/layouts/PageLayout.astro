@@ -1,0 +1,23 @@
+---
+import Layout from './Layout.astro'
+import Container from '../components/Container.astro'
+import type { MarkdownLayoutProps } from 'astro'
+
+type Props = MarkdownLayoutProps<{
+  // Define frontmatter props here
+  title: string
+  description: string
+}>
+
+const { frontmatter } = Astro.props
+---
+
+<Layout title={frontmatter.title} description={frontmatter.description}>
+  <Container>
+    
+    <article class="animate">
+      <h1>{frontmatter.title}</h1>
+      <slot />
+    </article>
+  </Container>
+</Layout>
