@@ -12,6 +12,7 @@ const { entry } = Astro.props as {
 
 // HACK: Remove the date prefix from the blog slug
 if (entry.collection === 'posts') {
+  // @ts-ignore
   entry.slug = cleanSlugDate(entry.slug)
 }
 
