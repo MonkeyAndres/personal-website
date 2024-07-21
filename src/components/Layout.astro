@@ -25,7 +25,7 @@ const { title, description, locale } = Astro.props
     <main>
       <slot />
     </main>
-    <Footer />
+    <Footer locale={locale} />
     <PageFind />
   </body>
 </html>

@@ -4,8 +4,9 @@ import Container from '@components/Container.astro'
 import { SITE, HOME, SOCIALS } from '@consts'
 import ArrowCard from '@components/ArrowCard.astro'
 import Link from '@components/Link.astro'
-import { Locale } from '@lib/i18n'
+import { Locale, translations } from '@lib/i18n'
 import type { CollectionEntry } from 'astro:content'
+import { buildLocalizedURL } from '@lib/i18n'
 
 type Props = {
   pinnedPosts: CollectionEntry<'posts'>[]
@@ -14,7 +15,6 @@ type Props = {
 }
 
 const { pinnedPosts, sortedPosts, locale } = Astro.props
-
 ---
 
 <Layout title={HOME.TITLE} description={HOME.DESCRIPTION} locale={locale}>
@@ -29,94 +29,101 @@ const { pinnedPosts, sortedPosts, locale } = Astro.props
           />
         </span>
 
-        <h1 class="mt-4 text-center text-2xl font-bold text-black dark:text-white">
+        <h1
+          class="mt-4 text-center text-2xl font-bold text-black dark:text-white"
+        >
           Andres Martin Angulo
         </h1>
       </div>
 
       <div class="mt-4 space-y-16">
         <section class="animate text-center font-extralight italic">
-          <p>Discovering what it means to be alive.</p>
-          <p>Trying to make the world a better place.</p>
+          <p>{translations[locale]['bio:1']}</p>
+          <p>{translations[locale]['bio:2']}</p>
         </section>
 
-        <section class="animate space-y-4">
+        <section class="animate space-y-6">
           <p>
-            Hello, I’m Andres! Welcome to my website! This is my little space in
-            the internet where I share the insight of my researches and my
-            vision of the world.
+            {translations[locale]['welcome-text']}
           </p>
 
           <p>
-            I’m a very curious person who likes to research from time to time. I
-            experiment with different topics such as nutrition, personal
-            finance, sports, productivity, etc. I enjoy keeping my mind busy
-            with something to do. You can see the projects that I’m currently
-            working on <Link href="/now">here</Link>.
+            {translations[locale]['about-me-text']}&nbsp;<Link
+              href={buildLocalizedURL(locale, '/now')}>here</Link
+            >.
           </p>
 
-          <p>Wanna know more about me? Read my story.</p>
-
           <p>
-            Wanna know which tools or hardware do I use?{' '}
-            <Link href="/tools">Read the tools page.</Link>
+            {translations[locale]['tools-text']}{' '}
+            <Link href={buildLocalizedURL(locale, '/tools')}
+              >{translations[locale]['link:tools-home']}</Link
+            >
           </p>
 
           <section class="animate space-y-6">
             <div class="flex flex-wrap items-center justify-between gap-y-2">
               <h2 class="font-semibold text-black dark:text-white">
-                📌 Pinned posts
+                📌&nbsp;{translations[locale]['pinned-posts']}
               </h2>
-              <Link href="/archive"> See all posts </Link>
+              <Link href={buildLocalizedURL(locale, '/archive')}>
+                {translations[locale]['see-all-posts']}
+              </Link>
             </div>
             <ul class="not-prose flex flex-col gap-4">
-              {pinnedPosts.map((post) => (
-                <li>
-                  <ArrowCard entry={post} locale={locale} />
-                </li>
-              ))}
+              {
+                pinnedPosts.map((post) => (
+                  <li>
+                    <ArrowCard entry={post} locale={locale} />
+                  </li>
+                ))
+              }
             </ul>
           </section>
 
           <section class="animate space-y-6">
             <div class="flex flex-wrap items-center justify-between gap-y-2">
               <h2 class="font-semibold text-black dark:text-white">
-                Latest posts
+                📚&nbsp;{translations[locale]['latest-posts']}
               </h2>
-              <Link href="/archive"> See all posts </Link>
+              <Link href={buildLocalizedURL(locale, '/archive')}>
+                {translations[locale]['see-all-posts']}
+              </Link>
             </div>
             <ul class="not-prose flex flex-col gap-4">
-              {sortedPosts.map((post) => (
-                <li>
-                  <ArrowCard entry={post} locale={locale} />
-                </li>
-              ))}
+              {
+                sortedPosts.map((post) => (
+                  <li>
+                    <ArrowCard entry={post} locale={locale} />
+                  </li>
+                ))
+              }
             </ul>
           </section>
 
           <section class="animate space-y-4">
             <h2 class="font-semibold text-black dark:text-white">
-              Let's Connect
+              👋&nbsp;{translations[locale]['lets-connect']}
             </h2>
             <article>
               <p>
-                If you want to get in touch with me about something or just to
-                say hi, reach out on social media or send me an email.
+                {translations[locale]['get-in-touch-text']}
               </p>
             </article>
             <ul class="not-prose flex flex-wrap gap-2">
-              {SOCIALS.map((SOCIAL) => (
-                <li class="flex gap-x-2 text-nowrap">
-                  <Link
-                    href={SOCIAL.HREF}
-                    external
-                    aria-label={`${SITE.TITLE} on ${SOCIAL.NAME}`}
-                  >
-                    {SOCIAL.NAME}
-                  </Link>
-                  {'/'}
-                </li>
-              ))}
+              {
+                SOCIALS.map((SOCIAL) => (
+                  <li class="flex gap-x-2 text-nowrap">
+                    <Link
+                      href={SOCIAL.HREF}
+                      external
+                      aria-label={`${SITE.TITLE} on ${SOCIAL.NAME}`}
+                    >
+                      {SOCIAL.NAME}
+                    </Link>
+                    {'/'}
+                  </li>
+                ))
+              }
               <li class="line-clamp-1">
                 <Link
                   href={`mailto:${SITE.EMAIL}`}

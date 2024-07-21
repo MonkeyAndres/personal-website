@@ -10,6 +10,7 @@ import TableOfContents from '@components/TableOfContents.astro'
 import Giscus from '@components/Giscus.astro'
 import { getLocalizedPosts, getTangentPosts } from '@lib/posts'
 import { Locale, DEFAULT_LOCALE, buildLocalizedURL } from '@lib/i18n'
+import { translations } from '@lib/i18n'
 
 export async function getStaticPaths() {
   const posts = await getLocalizedPosts(Locale.en)
@@ -43,13 +44,13 @@ const { prevPost, nextPost } = getTangentPosts(
     <div class="animate">
       <BackToPrevious
         href={buildLocalizedURL(locale, '/archive')}
-        >Back to archive</BackToPrevious
+        >{translations[locale]['back-to-archive']}</BackToPrevious
       >
     </div>
     <div class="my-10 space-y-1">
       <div class="animate flex items-center gap-1.5">
         <div class="font-base text-sm">
-          <FormattedDate date={post.data.date} />
+          <FormattedDate date={post.data.date} locale={locale} />
         </div>
         &bull;
         <div class="font-base text-sm">
@@ -60,7 +61,7 @@ const { prevPost, nextPost } = getTangentPosts(
         {post.data.title}
       </h1>
     </div>
-    {headings.length > 0 && <TableOfContents headings={headings} />}
+    {headings.length > 0 && <TableOfContents headings={headings} locale={locale} />}
     <article class="animate">
       <Content />
       <div class="mt-24">

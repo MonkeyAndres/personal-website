@@ -1,29 +1,35 @@
 ---
-import TableOfContentsHeading from "./TableOfContentsHeading.astro";
+import { translations, type Locale } from '@lib/i18n'
+import TableOfContentsHeading from './TableOfContentsHeading.astro'
+
+type Props = {
+  headings: Heading[]
+  locale: Locale
+}
 
 // https://kld.dev/building-table-of-contents/
-const { headings } = Astro.props;
-const toc = buildToc(headings);
+const { headings, locale } = Astro.props
+const toc = buildToc(headings)
 
 export interface Heading {
-  depth: number;
-  slug: string;
-  text: string;
+  depth: number
+  slug: string
+  text: string
 }
 
 function buildToc(headings: Heading[]) {
-  const toc: Heading[] = [];
-  const parentHeadings = new Map();
+  const toc: Heading[] = []
+  const parentHeadings = new Map()
   headings.forEach((h) => {
-    const heading = { ...h, subheadings: [] };
-    parentHeadings.set(heading.depth, heading);
+    const heading = { ...h, subheadings: [] }
+    parentHeadings.set(heading.depth, heading)
     if (heading.depth === 2) {
-      toc.push(heading);
+      toc.push(heading)
     } else {
-      parentHeadings.get(heading.depth - 1).subheadings.push(heading);
+      parentHeadings.get(heading.depth - 1).subheadings.push(heading)
     }
-  });
-  return toc;
+  })
+  return toc
 }
 ---
 
@@ -31,7 +37,7 @@ function buildToc(headings: Heading[]) {
   open
   class="animate rounded-lg border border-black/15 dark:border-white/20"
 >
-  <summary>Table of Contents</summary>
+  <summary>{translations[locale]['table-of-contents']}</summary>
   <nav class="">
     <ul class="py-3">
       {toc.map((heading) => <TableOfContentsHeading heading={heading} />)}
