@@ -2,29 +2,41 @@
 import Container from '@components/Container.astro'
 import Link from '@components/Link.astro'
 import { SITE } from '@consts'
+import { buildLocalizedURL, DEFAULT_LOCALE, type Locale } from '@lib/i18n'
+
+type Props = {
+  locale: Locale
+}
+
+const { locale } = Astro.props
+const currentPath = Astro.url.pathname
+
+const basePath = buildLocalizedURL(locale, '/')
+
+const links = [
+  { href: buildLocalizedURL(locale, '/archive'), text: 'archive' },
+  { href: buildLocalizedURL(locale, '/now'), text: 'now' },
+  { href: buildLocalizedURL(locale, '/tools'), text: 'tools' },
+]
 ---
 
-<header transition:persist>
+<header>
   <Container>
     <div class="flex flex-wrap justify-between gap-y-2">
-      <Link href="/" underline={false}>
+      <Link href={basePath} underline={false}>
         <div class="font-semibold">
           {SITE.TITLE}&nbsp;🐵
         </div>
       </Link>
       <nav class="flex items-center gap-1 text-sm">
-        <Link href="/archive">archive</Link>
-        <span>
-          {`/`}
-        </span>
-        <Link href="/now">now</Link>
-        <span>
-          {`/`}
-        </span>
-        <Link href="/tools">tools</Link>
-        <span>
-          {`/`}
-        </span>
+        {
+          links.map(({ href, text }) => (
+            <>
+              <Link href={href}>{text}</Link>
+              <span>{`/`}</span>
+            </>
+          ))
+        }
         <button
           id="magnifying-glass"
           aria-label="Search"
@@ -44,6 +56,24 @@ import { SITE } from '@consts'
           >
           &nbsp;Search
         </button>
+
+        {
+          locale === DEFAULT_LOCALE ? (
+            
+            <Link href={`/es${currentPath}`}>
+              <img src="/es.svg" alt="Spain flag" width="26" height="26" />
+            </Link>
+          ) : (
+            <Link href={currentPath.slice(3)}>
+              <img
+                src="/us.svg"
+                alt="United States flag"
+                width="26"
+                height="26"
+              />
+            </Link>
+          )
+        }
       </nav>
     </div>
   </Container>

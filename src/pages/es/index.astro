@@ -4,7 +4,7 @@ import { getLocalizedPosts, sortByDate, filterPinnedPosts } from '@lib/posts'
 import { Locale } from '@lib/i18n'
 import IndexView from '@views/IndexView.astro'
 
-const allBlogPosts = await getLocalizedPosts(Locale.en)
+const allBlogPosts = await getLocalizedPosts(Locale.es)
 const sortedPosts = allBlogPosts
   .sort(sortByDate)
   .slice(0, SITE.NUM_POSTS_ON_HOMEPAGE)
@@ -14,5 +14,5 @@ const pinnedPosts = allBlogPosts.filter(filterPinnedPosts)
 <IndexView
   pinnedPosts={pinnedPosts}
   sortedPosts={sortedPosts}
-  locale={Locale.en}
+  locale={Locale.es}
 />

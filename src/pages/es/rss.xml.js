@@ -4,7 +4,7 @@ import { Locale } from "@lib/i18n";
 import { getLocalizedPosts, sortByDate } from "@lib/posts";
 
 export async function GET(context) {
-  const blog = await getLocalizedPosts(Locale.en);
+  const blog = await getLocalizedPosts(Locale.es);
 
   const items = [...blog].sort(sortByDate);
 

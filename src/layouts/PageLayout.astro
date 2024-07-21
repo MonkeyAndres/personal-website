@@ -1,20 +1,21 @@
 ---
-import Layout from './Layout.astro'
-import Container from '../components/Container.astro'
+import Layout from '@components/Layout.astro'
+import Container from '@components/Container.astro'
 import type { MarkdownLayoutProps } from 'astro'
+import { DEFAULT_LOCALE, type Locale } from '@lib/i18n'
 
 type Props = MarkdownLayoutProps<{
   // Define frontmatter props here
   title: string
   description: string
+  locale: Locale
 }>
 
 const { frontmatter } = Astro.props
 ---
 
-<Layout title={frontmatter.title} description={frontmatter.description}>
+<Layout title={frontmatter.title} description={frontmatter.description} locale={frontmatter.locale ?? DEFAULT_LOCALE}>
   <Container>
-    
     <article class="animate">
       <h1>{frontmatter.title}</h1>
       <slot />

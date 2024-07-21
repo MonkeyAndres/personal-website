@@ -1,0 +1,21 @@
+---
+import PostPage from '@pages/posts/[...slug].astro'
+import { Locale } from '@lib/i18n';
+import { getLocalizedPosts } from '@lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await getLocalizedPosts(Locale.es)
+
+  return posts.map((post) => {
+    return {
+      params: { slug: post.slug },
+      props: { post },
+    }
+  })
+}
+
+const { post } = Astro.props
+
+---
+
+<PostPage post={post} locale={Locale.es} />

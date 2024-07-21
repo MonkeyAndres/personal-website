@@ -1,25 +1,17 @@
 ---
-import { cleanSlugDate } from "@lib/utils";
-import type { CollectionEntry } from "astro:content";
+import { Locale, buildLocalizedURL } from '@lib/i18n'
+import type { CollectionEntry } from 'astro:content'
 
 type Props = {
-  entry: CollectionEntry<"posts"> | CollectionEntry<"projects">;
-};
-
-const { entry } = Astro.props as {
-  entry: CollectionEntry<"posts"> | CollectionEntry<"projects">;
-};
-
-// HACK: Remove the date prefix from the blog slug
-if (entry.collection === 'posts') {
-  // @ts-ignore
-  entry.slug = cleanSlugDate(entry.slug)
+  entry: CollectionEntry<'posts'>
+  locale: Locale
 }
 
+const { entry, locale } = Astro.props
 ---
 
 <a
-  href={`/${entry.collection}/${entry.slug}`}
+  href={buildLocalizedURL(locale, `/${entry.collection}/${entry.slug}`)}
   class="not-prose group relative flex flex-nowrap rounded-lg border border-black/15 px-4 py-3 pr-10 transition-colors duration-300 ease-in-out hover:bg-black/5 hover:text-black focus-visible:bg-black/5 focus-visible:text-black dark:border-white/20 dark:hover:bg-white/5 dark:hover:text-white dark:focus-visible:bg-white/5 dark:focus-visible:text-white"
 >
   <div class="flex flex-1 flex-col truncate">

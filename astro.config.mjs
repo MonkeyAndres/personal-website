@@ -14,7 +14,6 @@ export default defineConfig({
       theme: "css-variables",
     },
   },
-
   redirects: {
     "/about": "/",
   },
