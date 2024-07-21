@@ -32,59 +32,13 @@ As simple as it sounds, this has helped me for more than 5 years. I consider thi
 
 Recurrent payments like memberships, housing bills or subscriptions, need a different approach. Most of those expenses are paid monthly. In order to track them I use a simple spreadsheet like the following:
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-    <colgroup>
-        <col  class="org-left" />
-
-        <col  class="org-left" />
-
-        <col  class="org-left" />
-    </colgroup>
-    <thead>
-        <tr>
-            <th scope="col" class="org-left">Concept</th>
-            <th scope="col" class="org-left">Type</th>
-            <th scope="col" class="org-left">Amount</th>
-        </tr>
-    </thead>
-
-    <tbody>
-        <tr>
-            <td class="org-left">Salary</td>
-            <td class="org-left">Active</td>
-            <td class="org-left">1000€</td>
-        </tr>
-
-
-        <tr>
-            <td class="org-left">Spotify</td>
-            <td class="org-left">Passive</td>
-            <td class="org-left">-10€</td>
-        </tr>
-
-
-        <tr>
-            <td class="org-left">Gym membership</td>
-            <td class="org-left">Passive</td>
-            <td class="org-left">-50€</td>
-        </tr>
-
-
-        <tr>
-            <td class="org-left">Rent</td>
-            <td class="org-left">Passive</td>
-            <td class="org-left">-400€</td>
-        </tr>
-    </tbody>
-
-    <tbody>
-        <tr>
-            <td class="org-left">Cash flow</td>
-            <td class="org-left">&#xa0;</td>
-            <td class="org-left">540€</td>
-        </tr>
-    </tbody>
-</table>
+| Concept        | Type    | Amount |
+| -------------- | ------- | ------ |
+| Salary         | Active  | 1000€  |
+| Spotify        | Passive | -10€   |
+| Gym membership | Passive | -50€   |
+| Rent           | Passive | -400€  |
+| Cash flow      |         | 540€   |
 
 I marked as "active" all the things that bring money into my life, and "passives" are the contrary. Building this table provides me an outlook of my recurrent expenses. Furthermore, it helps me keep my monthly expenses to a minimum.
 
