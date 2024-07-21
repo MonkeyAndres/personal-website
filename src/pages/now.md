@@ -1,6 +1,8 @@
 ---
-layout: '../layouts/PageLayout.astro'
+layout: '@layouts/PageLayout.astro'
 title: My life now
+description: List of all the projects that I'm working on.
+locale: en
 ---
 
 *Last updated: 15/06/2024*

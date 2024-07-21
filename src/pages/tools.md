@@ -1,7 +1,8 @@
 ---
-layout: '../layouts/PageLayout.astro'
+layout: '@layouts/PageLayout.astro'
 title: Tools that I use
 description: List of all the software and hardware that I use.
+locale: en
 ---
 
 *Last updated: 15/06/2024*
