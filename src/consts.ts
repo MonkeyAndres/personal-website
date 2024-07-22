@@ -2,14 +2,16 @@ import type { Metadata, Site, Socials } from "@types";
 
 export const SITE: Site = {
   TITLE: "MonkeyAndres",
-  DESCRIPTION: "Astro Micro is an accessible and lightweight blog.",
+  DESCRIPTION:
+    "Personal site of Andres Martin Angulo. Software Developer. Minimalist. Calisthenics Athlete. Homecook.",
   EMAIL: "monkeyandres@protonmail.com",
   NUM_POSTS_ON_HOMEPAGE: 5,
 };
 
 export const HOME: Metadata = {
   TITLE: "Home",
-  DESCRIPTION: "Astro Micro is an accessible theme for Astro.",
+  DESCRIPTION:
+    "Personal site of Andres Martin Angulo. Software Developer. Minimalist. Calisthenics Athlete. Homecook.",
 };
 
 export const BLOG: Metadata = {
