@@ -1,7 +1,7 @@
 ---
 title: "Próximos Pasos: Convertirse en un Ingeniero Backend"
 description: Compartiendo mi viaje de transición de desarrollo full-stack a backend.
-pin: true
+pin: false
 tags: [mi-historia]
 date: 2023-03-16 12:21 +0100
 ---

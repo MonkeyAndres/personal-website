@@ -1,7 +1,7 @@
 ---
 title: Explorando tus zonas de confort e incomodidad
 description: Breve ensayo que explora cómo el confort y la incomodidad dan forma a nuestras vidas cotidianas.
-pin: false
+pin: true
 tags: [disciplina]
 date: 2022-12-23 14:00 +0100
 ---

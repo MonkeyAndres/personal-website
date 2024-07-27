@@ -2,7 +2,7 @@
 title: Argumentos para ayudar y confiar en los demás
 description: Breve ensayo que explica la filosofía "ubuntu" y por qué ayudar a los 
   demás puede eventualmente hacer del mundo un mejor lugar para vivir.
-pin: false
+pin: true
 tags: [filosofía]
 date: 2022-07-22 10:19 +0200
 ---

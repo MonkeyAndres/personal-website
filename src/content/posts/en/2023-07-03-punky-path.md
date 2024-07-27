@@ -1,13 +1,9 @@
 ---
 title: The punky path
 description: The story of my experience at RIS 2023.
-pin: true
+pin: false
 tags: [stories]
 date: 2023-07-03 21:31 +0100
----
-
-
-
 ---
 
 The past week I went to the Redradix Innovation Space (RIS), an internal event of my past company. It was a 3-day event dedicated to exploring new tech and innovating in any way. In this article, I'll be sharing my experience + some thoughts on the RIS.

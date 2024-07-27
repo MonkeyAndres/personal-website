@@ -1,13 +1,9 @@
 ---
 title: "Next Steps: Becoming a Backend Engineer"
 description: Sharing my journey transitioning from full-stack to backend development.
-pin: true
+pin: false
 tags: [my-story]
 date: 2023-03-16 12:21 +0100
----
-
-
-
 ---
 
 In the [previous post](https://monkeyandres.com/post/my-story-part-2/) about my history I talked about taking a sabbatical period to escape the routine and explore other hobbies. Today I want to share what my next steps are going to be.

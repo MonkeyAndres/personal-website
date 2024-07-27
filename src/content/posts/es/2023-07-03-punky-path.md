@@ -1,7 +1,7 @@
 ---
 title: El camino punky
 description: La historia de mi experiencia en RIS 2023.
-pin: true
+pin: false
 tags: [historias]
 date: 2023-07-03 21:31 +0100
 ---
