@@ -1,0 +1,150 @@
+---
+title: Why is AI important?
+description: AI is going to change our reality in a blink. It's the most important invention of humanity. In this article, I want to skip the techy part and focus on the fundamentals of AI and it's importance.
+pin: false
+tags: [ai]
+date: 2024-09-10 20:02 +0000
+---
+
+Most of the people I know don't get why AI is so important. That's fine, really, I get it. You might think this is just nerd stuff. Believe me, it's not. Whether you like it or not, AI is going to change our reality in a blink.
+
+To me, it's the most important invention of humanity.
+
+I'm the type of nerd who works at an AI lab. You can say I'm "knowledgeable" but in reality I'm not. There's still so much to learn about AI.
+
+In this article, I want to skip the techy part and focus on the fundamentals of AI. My goal is that even my grandma (who reads this blog), can understand what I'm talking about.
+
+> For the sake of simplicity, I'm using ChatGPT as the example of an _LLM_ (Large Language Model). There are other models out there both private and public. I'll talk about them in following posts.
+
+## ChatGPT. What does it do?
+
+I'm going to start with something I assume most people are familiar with, ChatGPT. Since its launch, it caused huge excitement. Conceptually, it's just a program that "generates" human language. You "ask" it a question and it generates words to "reply" your question. Simple enough, right?
+
+Well, this program (let's call it "model") unlocked a lot of new possibilities. Perhaps the more widely adopted is the chat bot.
+
+You can hold coherent conversations about anything. I hold discussions about nutrition, philosophy and math almost on a weekly basis. There's no limit, you can ask it to write a poem, create a workout program, give you food recipes, help you with your homework, translate text&#x2026; You get the idea.
+
+The fact that a single program that can do all of that still amazes me. However, as far as it goes, it's not perfect... yet.
+
+## Should we trust it?
+
+Given its nature, you can "prompt" anything to ChatGPT. The model will just generate the next probable words. However, here comes the problem: should we trust their responses?
+
+Generally speaking no, we shouldn't. Although the responses may sound convincing enough, that doesn't imply that they are true. Right now, the models suffer from something called "hallucinations" (basically making stuff up). In frontier model, it's not that often, still, keep an eye for that.
+
+In order to protect ourselves against misinformation we must practice _critical thinking_. In reality this is nothing new. We all heard a million times phrases like "don't believe what you read on the internet". In fact, the rule applies to everything. You need some level of skepticism about what you hear or read. Unfortunately, "critical thinking" is harder than ever and we all seem to have forgotten about it.
+
+> Fun exercise: The next time you are in a conversation, identify the origin of your arguments. Are they originally yours? Are you just repeating things you heard? Did you think them through? Double-check maybe?
+
+## Measuring how good ChatGPT is
+
+Now, you might be wondering, "how do we know if it's actually any good?" Great question! Just like we use tests to measure how well students are learning, we do the same for AI. This helps us understand how capable these systems are becoming and how quickly they're improving.
+
+Measuring LLMs performance is an area of active research. There are a ton of open questions because we don't fully understand the range of tasks that a model can perform.
+
+To really grasp how far AI has come, let's look at some real-world tests. Think of these as "standardized tests" for AI, measuring how well they perform on various tasks. I'll spare you the technical jargon, but trust me, these tests are tough.
+
+Side-note: For those of you interested, I added some hand-picked questions at the end of this post. Try and solve them on your own... or use AI to guide you.
+
+## What can ChatGPT do? (the scary part)
+
+Below are 4 of the most famous benchmarks that the AI has beaten lately. Let's explore what the number tells us.
+
+### General Knowledge (MMLU test)
+
+- This test covers everything from history to science to law.
+- In 2019, AI scored about 32% (imagine getting an F on your exam).
+- By 2023, the latest AI scored over 86% (that's like going from an F to an A in just four years).
+
+### Medical Knowledge (MedQA test)
+
+- This one's based on actual medical licensing exams. Tough stuff.
+- In 2022, AI was scoring around 33% (barely passing).
+- By 2024, it hit 93% (better than many human doctors!).
+
+### Advanced Math (MATH test)
+
+- We're talking complex math problems here, not just basic arithmetic.
+- In 2019, AI scored a measly 6.9% (basically clueless).
+- By 2024, it reached nearly 88% (from "math is hard" to math genius).
+
+### Expert-Level Science (GPQA test)
+
+- These are questions so hard that experts outside their field only get 34% right.
+- In late 2022, AI scored about 28% (not great, but remember how tough this is).
+- By 2024, it hit 53.6% (outperforming human experts in unfamiliar fields).
+
+### Personal notes
+
+This is AI for you friends. Remember, a computer "program" solves this types of problem expressed in natural language. More importantly, we didn't taught it how to solve them, it just does.
+
+The truly mind-blowing part? Most of these improvements happened in just 1-2 years. It's like watching a child grow from struggling with basic addition to solving complex equations overnight.
+
+The pace at which AI advances is quicker than anything we ever seen before in history. It takes a long time for experts to gather questions that would challenge future AI systems.
+
+## In summary
+
+So, why is AI so important? Well, look at how far we've come in just a few years. These AI models are now solving complex problems, understanding language nuances, and even outperforming human experts in some areas. This isn't just about having a cool chatbot to play with - it's about having tools that can revolutionize industries, accelerate scientific discoveries, and help us tackle some of the biggest challenges facing humanity. From healthcare to climate change, AI has the potential to be a game-changer. And the scary (or exciting, depending on how you look at it) part? We're just getting started.
+
+I hope by this point you understand why AI is so relevant nowadays. As you read this, in some big server, new AI models are being trained. Those new models can be hugely beneficial for solving problems our "monkey brain" cannot.
+
+We've barely scratched the surface of what AI can do. In upcoming posts, we'll explore more about this new technology. Whether you're excited, terrified, or just plain curious, there's a whole world of AI wonders (and challenges) to explore. So, what aspect of AI are you most intrigued by?
+
+For now, I'm happy if you understood how deceivingly powerful "just generating words" is.
+
+Thanks for reading.
+
+---
+
+## References (English only)
+
+- [From GPT-4 to AGI (Situational Awareness)](https://situational-awareness.ai/from-gpt-4-to-agi/#The_last_four_years)
+- [Test scores of AI systems on various capabilities relative to human performance](https://ourworldindata.org/grapher/test-scores-ai-capabilities-relative-human-performance?country=Handwriting+recognition~Speech+recognition~Image+recognition~Reading+comprehension~Language+understanding~Predictive+reasoning~Code+generation~Complex+reasoning~General+knowledge+tests~Nuanced+language+interpretation~Math+problem-solving~Reading+comprehension+with+unanswerable+questions#sources-and-processing)
+- [(Paper) Sparks of Artificial General Intelligence: Early experiments with GPT-4](https://arxiv.org/abs/2303.12712)
+
+
+## Hand-picked AI test questions
+
+### [MMLU](https://huggingface.co/datasets/cais/mmlu)
+
+> This is a massive multitask test consisting of multiple-choice questions from various branches of knowledge. The test spans subjects in the humanities, social sciences, hard sciences, and other areas that are important for some people to learn. This covers 57 tasks including elementary mathematics, US history, computer science, law, and more. To attain high accuracy on this test, models must possess extensive world knowledge and problem solving ability.
+
+Sample questions:
+
+- **College Chemistry**
+  "The rotational correlation time of a spherical object of radius r immersed in a liquid with viscosity η is given by the Stokes equation: τc = 4πηr3/3kBT. A small molecule with relative molecular mass Mr = 100 in water at 298 K has τc = 50 ps. Assuming that Mr is proportional to the molecular volume, estimate τc for a small protein with Mr = 8400."
+
+- **Professional Law**
+  "A man is sitting on a beach chair, peacefully and in a relaxed meditative state, when a truck racing on the sand ran down a sunbathing elderly person. The man said out loud, "Oh God, look what that truck driver did. The man driving that truck was racing and going about 100 mph.! Someone call 911!!" A woman, who was sitting on the beach nearby, but facing the other way, heard the man's outcry. When the case comes to trial, will the court allow both the man and the woman to testify about the man's utterances?"
+
+- **Professional Accounting**
+  "When the AQR partnership was formed, partner Acre contributed land with a fair market value of $100,000 and a tax basis of $60,000 in exchange for a one-third interest in the partnership. The AQR partnership agreement specifies that each partner will share equally in the partnership’s profits and losses. During its first year of operation, AQR sold the land to an unrelated third party for $160,000. What is the proper tax treatment of the sale?"
+
+### [MedQA](https://paperswithcode.com/dataset/medqa-usmle)
+
+> Multiple choice question answering based on the United States Medical License Exams (USMLE). The dataset is collected from the professional medical board exams.
+
+Sample questions:
+
+- "A 23-year-old woman comes to the physician because of increasing pain and swelling of her hands and wrists for 3 days. She has been unable to continue her daily activities like writing or driving. She has had a nonpruritic generalized rash for 4 days. She had fever and a runny nose one week ago which resolved with over-the-counter medication. She is sexually active with a male partner and uses condoms inconsistently. She works as an attendant at an amusement park. Her temperature is 37.1°C (98.8°F), pulse is 90/min, and blood pressure is 118/72 mm Hg. Examination shows swelling and tenderness of the wrists as well as the metacarpophalangeal and proximal interphalangeal joints. Range of motion at the wrists is limited. A lacy macular rash is noted over the trunk and extremities. The remainder of the examination shows no abnormalities. Laboratory studies, including erythrocyte sedimentation rate and anti-nuclear antibody and anti-dsDNA serology, show no abnormalities. Which of the following is the most likely diagnosis?"
+- "A 55-year-old man presents to the emergency department with hematemesis that started 1 hour ago but has subsided. His past medical history is significant for cirrhosis with known esophageal varices which have been previously banded. His temperature is 97.5°F (36.4°C), blood pressure is 114/64 mmHg, pulse is 130/min, respirations are 12/min, and oxygen saturation is 98% on room air. During the patient's physical exam, he begins vomiting again and his heart rate increases with a worsening blood pressure. He develops mental status changes and on exam he opens his eyes and flexes his arms only to sternal rub and and is muttering incoherent words. Which of the following is the most appropriate next step in management?"
+
+### [MATH](https://github.com/hendrycks/math)
+
+> MATH is a new dataset of 12,500 challenging competition mathematics problems. Each problem in MATH has a full step-by-step solution which can be used to teach models to generate answer derivations and explanations.
+
+Sample questions:
+
+- **Intermediate Algebra**
+  "In the equation $w^3+x^3+y^3=z^3$, $w^3$, $x^3$, $y^3$, and $z^3$ are distinct, consecutive positive perfect cubes listed in ascending order. What is the smallest possible value of $z$?"
+- **Counting and probability**
+  "Bob's password consists of a non-negative single-digit number followed by a letter and another non-negative single-digit number (which could be the same as the first one). What is the probability that Bob's password consists of an odd single-digit number followed by a letter and a positive single-digit number?"
+
+### [GPQA](https://huggingface.co/datasets/Idavidrein/gpqa)
+
+> GPQA is a multiple-choice, Q&A dataset of very hard questions written and validated by experts in biology, physics, and chemistry. When attempting questions out of their own domain (e.g., a physicist answers a chemistry question), these experts get only 34% accuracy, despite spending >30m with full access to Google.
+
+Sample questions:
+
+- "The universe if filled with the Cosmic Microwave Background. Consider the annihilation of high energy &gamma;-rays with a photon from the CMB Radiation into electron-positron, i.e. $\gamma\gamma\rightarrow e^{+}e^{-}$. From what energy &gamma;-rays would have their lifetimes in the universe limited by this process? Knowing that the average photon energy of the CMB is $10^{-3}eV$."
+- "A light beam is propagating through a glass with index of refraction n. The glass is moving at constant velocity v in the same direction as the beam and toward the observer in laboratory. What is the speed of light in glass relative to the observer in laboratory? Take the speed of light in vacuum c=1."
