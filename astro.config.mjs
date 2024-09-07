@@ -10,6 +10,7 @@ import remarkMath from "remark-math";
 
 // https://astro.build/config
 export default defineConfig({
+  output: "hybrid",
   site: "https://monkeyandres.com",
   integrations: [
     tailwind(),

@@ -22,6 +22,7 @@
     "astro-pagefind": "^1.5.0",
     "clsx": "^2.1.1",
     "dotenv": "^16.4.5",
+    "mermaid": "^11.1.1",
     "openai": "^4.58.1",
     "rehype-katex": "^7.0.1",
     "remark-math": "^6.0.0",
