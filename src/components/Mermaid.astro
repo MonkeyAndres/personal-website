@@ -28,8 +28,9 @@ const { chart } = Astro.props
     const mermaidContainers = document.querySelectorAll('.mermaid-container')
     console.log(`Found ${mermaidContainers.length} Mermaid containers`)
 
-    mermaidContainers.forEach(async (container, index) => {
+    mermaidContainers.forEach(async (container: any, index) => {
       const content = container.dataset.mermaid
+
       try {
         const { svg } = await mermaid.render(`mermaid-${index}`, content)
         container.innerHTML = svg
