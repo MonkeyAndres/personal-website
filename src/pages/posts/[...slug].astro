@@ -42,8 +42,7 @@ const { prevPost, nextPost } = getTangentPosts(
 >
   <Container>
     <div class="animate">
-      <BackToPrevious
-        href={buildLocalizedURL(locale, '/archive')}
+      <BackToPrevious href={buildLocalizedURL(locale, '/archive')}
         >{translations[locale]['back-to-archive']}</BackToPrevious
       >
     </div>
@@ -60,12 +59,36 @@ const { prevPost, nextPost } = getTangentPosts(
       <h1 class="animate text-3xl font-semibold text-black dark:text-white">
         {post.data.title}
       </h1>
+      {
+        locale === 'es' && (
+          <div class="animate my-4 text-sm text-gray-500">
+            Esta publicación ha sido traducida utilizando inteligencia
+            artificial. El contenido original está disponible en inglés.{' '}
+            <a
+              href="https://github.com/MonkeyAndres/personal-website/blob/main/src/scripts/translate-article.ts"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="underline"
+            >
+              Código que genera traduccion.
+            </a>
+          </div>
+        )
+      }
     </div>
-    {headings.length > 0 && <TableOfContents headings={headings} locale={locale} />}
+    {
+      headings.length > 0 && (
+        <TableOfContents headings={headings} locale={locale} />
+      )
+    }
     <article class="animate">
       <Content />
       <div class="mt-24">
-        <PostNavigation prevPost={prevPost} nextPost={nextPost} locale={locale} />
+        <PostNavigation
+          prevPost={prevPost}
+          nextPost={nextPost}
+          locale={locale}
+        />
       </div>
       <!-- <div class="mt-24">
         <Giscus />
