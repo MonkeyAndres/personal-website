@@ -25,5 +25,6 @@ export default defineConfig({
   },
   redirects: {
     "/about": "/",
+    "/uses": "/tools",
   },
 });
