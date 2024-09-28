@@ -129,8 +129,18 @@ const { pinnedPosts, sortedPosts, locale } = Astro.props
                   href={`mailto:${SITE.EMAIL}`}
                   aria-label={`Email ${SITE.TITLE}`}
                 >
-                  {SITE.EMAIL}
+                  Email
                 </Link>
+                {'/'}
+              </li>
+              <li class="line-clamp-1">
+                <Link
+                  href={buildLocalizedURL(locale, '/rss.xml')}
+                  aria-label="RSS Feed"
+                >
+                  RSS
+                </Link>
+                
               </li>
             </ul>
           </section>
