@@ -52,7 +52,7 @@ Lista de todos los proyectos en los que he trabajado en el pasado.
   - [CrazyTrips (2018)](#crazytrips-2018)
   - [Daily's Hell (2018)](#dailys-hell-2018)
 - [AlexioProject (2018)](#alexioproject-2018)
-  - [MyNotebooks (2017)](#mynotebooks-2017)
+- [MyNotebooks (2017)](#mynotebooks-2017)
 
 
 ### CoopStories (2023) 
@@ -176,7 +176,7 @@ Este proyecto me enseñó mucho sobre modelado de datos. Pasé un montón de tar
 
 [[Code]](https://github.com/MonkeyAndres/AlexioProject)
 
-#### MyNotebooks (2017)
+### MyNotebooks (2017)
 Colección de cuadernos (en español) de cuando estaba aprendiendo programación básica. Los cuadernos están incompletos. Es un buen recuerdo de mis inicios en el mundo del software.
 
 Cuadernos: Git, Java 8, C y C++.
