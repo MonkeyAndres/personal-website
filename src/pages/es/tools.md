@@ -5,7 +5,7 @@ description: List of all the software and hardware that I use.
 locale: es
 ---
 
-*Última actualización: 15/06/2024*
+*Última actualización: 28/09/2024*
 
 #### Software
 
@@ -49,7 +49,6 @@ Extensiones del navegador
 - [Distraction-free YouTube](https://chrome.google.com/webstore/detail/df-tube-distraction-free/mjdepdfccjgcndkmemponafgioodelna) elimina elementos visuales de YT para una experiencia más limpia.
 - [Floccus](https://chrome.google.com/webstore/detail/floccus-bookmarks-sync/fnaicdffflnofjppbagibeoednhnbjhg): sincroniza mis marcadores desde Nextcloud.
 - [LanguageTool](https://chrome.google.com/webstore/detail/grammar-checker-paraphras/oldceeleldhonbafppcapldpdifcinji) corrector gramatical y ortográfico.
-- [I still don't care about cookies](https://chrome.google.com/webstore/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm) elimina los banners de cookies.
 - [Imagus](https://chrome.google.com/webstore/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab): amplía imágenes al pasar el ratón.
 - [JSON View](https://chrome.google.com/webstore/detail/jsonview/gmegofmjomhknnokphhckolhcffdaihd): embellece archivos JSON.
 - [Linguist](https://chrome.google.com/webstore/detail/linguist-web-pages-transl/gbefmodhlophhakmoecijeppjblibmie): traduce páginas web.
@@ -69,14 +68,15 @@ Extensiones GNOME
 - [Hot Edge](https://extensions.gnome.org/extension/4222/hot-edge/): activa la vista de actividades cuando el ratón va al fondo del monitor
 - [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/): realiza pequeños ajustes en GNOME shell. Extensión imprescindible
 - [Vitals](https://extensions.gnome.org/extension/1460/vitals/): monitorea recursos como uso de CPU, uso de RAM, batería, temperatura...
+- [Gnome Fuzzy Search](https://extensions.gnome.org/extension/1488/gnome-fuzzy-search/): fuzzy search en GNOME
+- [Search Light](https://extensions.gnome.org/extension/5489/search-light/): búsqueda de GNOME fuera de la "vista general".
+- [Night Theme Switcher](https://extensions.gnome.org/extension/2236/night-theme-switcher/): cambia automáticamente entre el tema claro y oscuro según la hora del día
 
 #### Hardware
 
 - **Portátil**: Slimbook ProX 14 (Ryzen 7 5700u + 32GB RAM + 1TB NVME)
-- **Teléfono personal**: OnePlus Nord 3 5G
-- **Teléfono social**: iPhone XR 64GB
+- **Teléfono**: iPhone 11 128GB
 - **Reloj inteligente**: Apple Watch Series 4
-- **Tableta**: iPad Mini 5
-- **Gaming**: Steam Deck OLED 512GB
+- **Tablet**: [SuperNote Nomad A6X2](https://monkeyandres.com/es/posts/supernote-nomad-a6x2-review/)
 - **Auriculares casuales**: AirPods 2ª Gen
 - **Auriculares diarios**: Sony WH-1000XM4

@@ -5,7 +5,7 @@ description: List of all the software and hardware that I use.
 locale: en
 ---
 
-*Last updated: 15/06/2024*
+*Last updated: 28/09/2024*
 
 #### Software
 
@@ -49,7 +49,6 @@ Browser Extensions
 - [Distraction-free YouTube](https://chrome.google.com/webstore/detail/df-tube-distraction-free/mjdepdfccjgcndkmemponafgioodelna) remove visual elements from YT for a cleaner experience.
 - [Floccus](https://chrome.google.com/webstore/detail/floccus-bookmarks-sync/fnaicdffflnofjppbagibeoednhnbjhg): sync my bookmarks from Nextcloud.
 - [LanguageTool](https://chrome.google.com/webstore/detail/grammar-checker-paraphras/oldceeleldhonbafppcapldpdifcinji) grammar and spell checker.
-- [I still don't care about cookies](https://chrome.google.com/webstore/detail/i-still-dont-care-about-c/edibdbjcniadpccecjdfdjjppcpchdlm) removes cookie banners.
 - [Imagus](https://chrome.google.com/webstore/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab): enlarge images on mouse-hover.
 - [JSON View](https://chrome.google.com/webstore/detail/jsonview/gmegofmjomhknnokphhckolhcffdaihd): prettify JSON files.
 - [Linguist](https://chrome.google.com/webstore/detail/linguist-web-pages-transl/gbefmodhlophhakmoecijeppjblibmie): translate web pages.
@@ -69,14 +68,15 @@ GNOME Extensions
 - [Hot Edge](https://extensions.gnome.org/extension/4222/hot-edge/): trigger activities view when the mouse goes to the bottom of the monitor
 - [Just Perfection](https://extensions.gnome.org/extension/3843/just-perfection/): make minor tweaks to GNOME shell. Must have extension
 - [Vitals](https://extensions.gnome.org/extension/1460/vitals/): monitor resources such as CPU usage, RAM usage, battery, temperature...
+- [Gnome Fuzzy Search](https://extensions.gnome.org/extension/1488/gnome-fuzzy-search/): fuzzy search for GNOME shell
+- [Search Light](https://extensions.gnome.org/extension/5489/search-light/): GNOME search outside of the overview
+- [Night Theme Switcher](https://extensions.gnome.org/extension/2236/night-theme-switcher/): switch between light and dark themes based on the time of the day
 
 #### Hardware
 
 - **Laptop**: Slimbook ProX 14 (Ryzen 7 5700u + 32GB RAM + 1TB NVME)
-- **Personal Phone**: OnePlus Nord 3 5G
-- **Social Phone**: iPhone XR 64GB
+- **Phone**: iPhone 11 128GB
 - **Smartwatch**: Apple Watch Series 4
-- **Tablet**: iPad Mini 5
-- **Gaming**: Steam Deck OLED 512GB
+- **Tablet**: [SuperNote Nomad A6X2](https://monkeyandres.com/posts/supernote-nomad-a6x2-review/)
 - **Casual headphones**: AirPods 2nd Gen
 - **Everyday headphones**: Sony WH-1000XM4
