@@ -20,10 +20,10 @@ export const BLOG: Metadata = {
 };
 
 export const SOCIALS: Socials = [
-  {
-    NAME: "Instagram",
-    HREF: "https://instagram.com/monkeyandres",
-  },
+  // {
+  //   NAME: "Instagram",
+  //   HREF: "https://instagram.com/monkeyandres",
+  // },
   {
     NAME: "GitHub",
     HREF: "https://github.com/monkeyandres",
