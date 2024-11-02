@@ -6,6 +6,10 @@ tags: [life-advice]
 date: 2021-11-11 21:03 +0100
 ---
 
+_Actualización (2024-11-02)_: Recomiendo echar un ojo en [80k Hours](https://80000hours.org/career-guide/), una organización que ofrece consejos sobre cómo elegir una carrera que tenga un impacto positivo en el mundo.
+
+---
+
 A lo largo de mi vida he visto a muchas personas luchando con la decisión de qué camino profesional deberían seguir. En la juventud actual, esa es una lucha muy común y quiero ofrecer un poco de ayuda.
 
 Aunque considero que el camino profesional es una de las decisiones más importantes de tu vida, es importante no pensarlo demasiado, o te sentirás abrumado por la cantidad de opciones disponibles o las opiniones de los demás.

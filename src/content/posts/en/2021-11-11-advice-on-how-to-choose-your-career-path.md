@@ -6,6 +6,10 @@ tags: [life-advice]
 date: 2021-11-11 21:03 +0100
 ---
 
+_Update (2024-11-02)_: I recommend checking [80k Hours](https://80000hours.org/career-guide/), an organization that offers advice on how to choose a career that has a positive impact on the world.
+
+---
+
 Throughout my life I've seen a lot of people struggling with the decision of which career path should they follow. In today's youth, that's a very common struggle and I want to offer a little help.
 
 Although I consider career path one of the most important decision of your life, it's important to not overthink it, or you'll be overwhelmed by the amount of options available or other's opinions.
