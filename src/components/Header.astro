@@ -1,37 +1,37 @@
 ---
-import Container from '@components/Container.astro'
-import Link from '@components/Link.astro'
-import { SITE } from '@consts'
+import Container from "@components/Container.astro";
+import Link from "@components/Link.astro";
+import { SITE } from "@consts";
 import {
   buildLocalizedURL,
   DEFAULT_LOCALE,
   translations,
   type Locale,
-} from '@lib/i18n'
+} from "@lib/i18n";
 
 type Props = {
-  locale: Locale
-}
+  locale: Locale;
+};
 
-const { locale } = Astro.props
-const currentPath = Astro.url.pathname
+const { locale } = Astro.props;
+const currentPath = Astro.url.pathname;
 
-const basePath = buildLocalizedURL(locale, '/')
+const basePath = buildLocalizedURL(locale, "/");
 
 const links = [
   {
-    href: buildLocalizedURL(locale, '/archive'),
-    text: translations[locale]['link:archive'],
+    href: buildLocalizedURL(locale, "/archive"),
+    text: translations[locale]["link:archive"],
   },
   {
-    href: buildLocalizedURL(locale, '/now'),
-    text: translations[locale]['link:now'],
+    href: buildLocalizedURL(locale, "/now"),
+    text: translations[locale]["link:now"],
   },
   {
-    href: buildLocalizedURL(locale, '/tools'),
-    text: translations[locale]['link:tools'],
+    href: buildLocalizedURL(locale, "/tools"),
+    text: translations[locale]["link:tools"],
   },
-]
+];
 ---
 
 <header>
@@ -55,16 +55,16 @@ const links = [
         {
           locale === DEFAULT_LOCALE ? (
             <Link href={`/es${currentPath}`}>
+              <img src="/es.svg" alt="Spain flag" width="26" height="26" />
+            </Link>
+          ) : (
+            <Link href={currentPath.slice(3)}>
               <img
                 src="/us.svg"
                 alt="United States flag"
                 width="26"
                 height="26"
               />
-            </Link>
-          ) : (
-            <Link href={currentPath.slice(3)}>
-              <img src="/es.svg" alt="Spain flag" width="26" height="26" />
             </Link>
           )
         }
