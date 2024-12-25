@@ -5,7 +5,7 @@ description: Lista de todos los proyectos en los que estoy trabajando.
 locale: es
 ---
 
-*Última actualización: 23/11/2024*
+*Última actualización: 25/12/2024*
 
 *Esta es una página "now", lee más sobre el proyecto [aquí](https://nownownow.com/about)*
 
@@ -14,22 +14,20 @@ locale: es
 - **Carrera**
   - Ingeniero de IA para [AI Consortivm](https://www.aiconsortivm.com/)
 - **Ejercicio**
-  - Paseo corto por la mañana
-  - Calistenia / Correr después del trabajo
-  - Yoga antes de dormir
-- **Blog**: escribiendo mas a menudo
+  - Calistenia / Correr / Yoga antes del trabajo
+  - Bajando de peso a 70kg
+- **Blog**: escribiendo de forma más casual
 - **Personal**
-  - Aprendiendo a romper los ciclos depresivos
+  - Aprendiendo a llevar un equilibrio entre trabajo y vida personal
   - Aprendiendo a lidiar con el aburrimiento
 - **Carnet de conducir**
 - **Inversiones**
   - Usando Trading212 como broker
-  - Inversiones en dividendos, S&P 500 y acciones de cannabis
+  - Inversiones en dividendos, S&P 500 y semiconductores
 - **Cocina / Dieta**
   - Cocinar en lotes y congelar comidas
 - **Investigación**
-  - Estudiando alineamiento (IA)
-  - Estudiando racionalidad (LessWrong)
+  - [Effective Altruism](https://www.effectivealtruism.org/)
 
 <!-- omit in toc -->
 ## Archivo de proyectos / cementerio

@@ -5,7 +5,7 @@ description: List of all the projects that I'm working on.
 locale: en
 ---
 
-*Last updated: 23/11/2024*
+*Last updated: 25/12/2024*
 
 _This is a now page, read more about the project [here](https://nownownow.com/about)_
 
@@ -15,22 +15,20 @@ _This is a now page, read more about the project [here](https://nownownow.com/ab
 - **Career**
   - AI Engineer for [AI Consortivm](https://www.aiconsortivm.com/)
 - **Exercise**
-  - Short walk in the morning
-  - Calisthenics / Running after work
-  - Yoga before bed
-- **Blog**: picking up writing again!
+  - Calisthenics / Running / Yoga before work
+  - Losing weight to 70kg
+- **Blog**: writing more casually
 - **Personal**
-  - Learning to break from depression cycles
+  - Learning about work-life balance
   - Teaching myself to deal with boredom
 - **Driver's license**
 - **Investing**
   - Using Trading212 as broker
-  - Dividend investments, S&P 500 and cannabis stocks
+  - Dividend investments, S&P 500 and semiconductors
 - **Cooking / Diet**
   - Batch cooking and freezing meals
 - **Research**
-  - Getting into AI alignment
-  - Studying Rationality (LessWrong)
+  - [Effective Altruism](https://www.effectivealtruism.org/)
  
 <!-- omit in toc -->
 ## Project archive / graveyard
