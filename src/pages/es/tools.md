@@ -7,7 +7,7 @@ locale: es
 
 *Última actualización: 25/12/2024*
 
-#### Software
+### Software
 
 Esenciales
 - **Sistema Operativo**: [Fedora](https://getfedora.org/), simple, robusto y funciona de inmediato.
@@ -67,7 +67,7 @@ Extensiones GNOME
 - [Emoji Copy](https://extensions.gnome.org/extension/6242/emoji-copy/): agrega emojis a tu vida!
 - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/): historial del portapapeles
 
-#### Hardware
+### Hardware
 
 - **Portátil**: Slimbook ProX 14 (Ryzen 7 5700u + 32GB RAM + 1TB NVME)
 - **Teléfono**: iPhone 14 Plus 128GB
