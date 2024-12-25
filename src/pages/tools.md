@@ -7,7 +7,7 @@ locale: en
 
 *Last updated: 25/12/2024*
 
-#### Software
+### Software
 
 Essentials
 - **OS**: [Fedora](https://getfedora.org/), simple, robust and works out of the box.
@@ -67,7 +67,7 @@ GNOME Extensions
 - [Emoji Copy](https://extensions.gnome.org/extension/6242/emoji-copy/): add emoji everywhere!
 - [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/): clipboard history
 
-#### Hardware
+### Hardware
 
 - **Laptop**: Slimbook ProX 14 (Ryzen 7 5700u + 32GB RAM + 1TB NVME)
 - **Phone**: iPhone 14 Plus 128GB
